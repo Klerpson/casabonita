@@ -10,7 +10,7 @@
    border-radius: 20% 0 0 60%;
    z-index: 5;
    transition: right .8s cubic-bezier(1, 0, 0, 1);
-   background: var(--secundario);
+   background: var(--accion);
  }
 
  nav li {
@@ -27,7 +27,7 @@
 
  .nav-link {
    position: relative;
-   color: var(--principal);
+   color: var(--blanco);
    font-size: 1.5rem;
    letter-spacing: 1px;
    text-transform: capitalize;
