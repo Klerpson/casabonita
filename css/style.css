@@ -6,6 +6,8 @@
 
 {% include css/principal.css %}
 
+{% include css/tabs.css %}
+
 {% include css/footer.css %}
 
 {% include css/articulo.css %}
@@ -14,7 +16,6 @@
 
 {% include css/blog.css %}
 
-{% include css/negocio.css %}
 
 {% include css/buscador.css %}
 

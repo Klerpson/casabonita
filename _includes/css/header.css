@@ -23,8 +23,10 @@ header h1{
   letter-spacing: 0.1rem;
   line-height: 2rem;
 }
+
+header h1 span{  font-family: var(--fuenteGraficas);}
+
 header h2{
-  margin: 0.5rem;
   line-height: 2rem;
   font-weight: 600;
 }
