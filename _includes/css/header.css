@@ -1,0 +1,30 @@
+header{
+  background-image: url('{{site.baseurl}}/img/hero-home.webp');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+
+header div{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--blancoRGBA);
+}
+header h1{
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+header h2{
+  margin: 0.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
