@@ -154,10 +154,6 @@ header h1{
 
 header h1 span{  font-family: var(--fuenteGraficas);}
 
-header h2{
-  line-height: 2rem;
-  font-weight: 600;
-}
 
 
 
@@ -183,7 +179,8 @@ header h2{
 
 .tabs .icon .iconBox {
   position: relative;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin: 10px;
   padding: 15px;
   height: 250px;
@@ -212,7 +209,7 @@ header h2{
   transition: 0.5s;
 }
 
-.icon .iconBox h3{
+.icon .iconBox h3 {
   font-size: 1rem;
 }
 
@@ -562,9 +559,6 @@ footer a {
     width: calc(50% - 50px);
     margin: 0 30px 30px 0;
     padding: 0 25px;
-    border-radius: var(--radius);
-    transition: 0.5s;
-    box-shadow: var(--shadow);
   }
 
   .tabs .icon .iconBox img {
@@ -572,17 +566,7 @@ footer a {
     max-height: 100%;
   }
 
-  .tabs .icon .iconBox {
-    position: relative;
-    margin: 0 30px 30px 0;
-    padding: 0 25px;
-    height: 250px;
-    border-radius: var(--radius);
-    transition: 0.5s;
-    box-shadow: var(--shadow);
-  }
-
-  .contenido{
+  .contenido {
     width: 50%;
     overflow: hidden;
   }

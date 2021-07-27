@@ -25,8 +25,3 @@ header h1{
 }
 
 header h1 span{  font-family: var(--fuenteGraficas);}
-
-header h2{
-  line-height: 2rem;
-  font-weight: 600;
-}
