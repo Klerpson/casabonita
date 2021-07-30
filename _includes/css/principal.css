@@ -182,4 +182,10 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   text-decoration: none;
+  transition: 0.5s;
+}
+
+.rooms article a:hover{
+  transform: scale(0.9);
+  box-shadow: 0 1px 3px rgba(34, 34, 34, .7);;
 }
