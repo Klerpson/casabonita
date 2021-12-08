@@ -1,25 +1,28 @@
-header{
+header {
   background-image: url('{{site.baseurl}}/img/hero-home.webp');
-  background-position: center center;
+  background-position: top center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 90vh;
 }
 
-header div{
+header div {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   text-align: center;
   padding: 1.5rem;
   background-color: var(--blancoRGBA);
 }
-header h1{
+
+header h1 {
   letter-spacing: 0.1rem;
   line-height: 2rem;
 }
 
-header h1 span{  font-family: var(--fuenteGraficas);}
+header h1 span {
+  font-family: var(--fuenteGraficas);
+}

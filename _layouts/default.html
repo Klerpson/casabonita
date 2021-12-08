@@ -9,23 +9,7 @@ layout: compress
   {{ content }}
   <!-- nav -->
   <script src="{{ site.baseurl }}/js/app.js"></script>
-  <script type="text/javascript">
-    let iconBox = document.querySelectorAll('.iconBox');
-    let contentBox = document.querySelectorAll('.contentBox');
-    for (var i = 0; i < iconBox.length; i++) {
-      iconBox[i].addEventListener('mouseover', function () {
-        for (var i = 0; i < contentBox.length; i++) {
-          contentBox[i].className = 'contentBox';
-        }
-        document.getElementById(this.dataset.id).className = 'contentBox active';
+  <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 
-        for (var i = 0; i < iconBox.length; i++) {
-          iconBox[i].className = 'iconBox';
-        }
-        this.className = 'iconBox active';
-      })
-    }
-  </script>
 </body>
-
 </html>
