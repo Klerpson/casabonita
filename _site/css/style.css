@@ -166,7 +166,7 @@ html {
 
 body {
   display: grid;
-  grid-gap: 3rem;
+  grid-gap: 7rem;
   background-color: var(--blanco);
   color: var(--grisFuentes);
   font-family: var(--fuenteTexto);
@@ -271,6 +271,7 @@ main {
   justify-self: center;
   border: 1.5px solid var(--complemento1);
   border-radius: 7px;
+  box-shadow: var(sh);
   margin: 2rem 0 0;
   padding: 0.7rem 1rem;
   background: var(--complemento1);
@@ -283,10 +284,6 @@ main {
 .botones:hover {
   font-weight: 700;
   transform: scaleX(1.1);
-}
-
-.servicios{
-  margin: 7rem 0;
 }
 
 .servicios div{
@@ -316,14 +313,14 @@ main {
 .rooms {
   background: var(--complemento2);
   width: 100%;
-  padding: 5rem 1.5rem;
   color: var(--blanco);
+  padding: 5rem 0;
 }
 
 .rooms div {
   display: grid;
   place-content: center;
-  gap: 1rem;
+  gap: 2rem;
   grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fit, minmax(auto, 300px));
 }
@@ -361,7 +358,7 @@ main {
   box-shadow: var(--shadow);
   text-decoration: none;
   transition: 0.5s;
-  color: var(--grisFuentes);
+  color: var(--blanco);
 }
 
 .rooms article a:hover {
@@ -370,12 +367,25 @@ main {
   ;
 }
 
+#alianzas{
+  background-color: var(--complemento2);
+  width: 100%;
+  color: var(--blanco);
+  padding: 5rem 0;
+}
+
 #alianzas>p{
-  margin: 4rem 0;
+  margin: 4rem auto;
+  width: min(90%, 480px);
 }
 
 #alianzas>.beneficios{
   text-align: center;
+}
+
+#alianzas .beneficios picture img{
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
 }
 footer {
   display: flex;
