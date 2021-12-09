@@ -3,4 +3,4 @@ Allow: /
 User-Agent: AdsBot-Google-Mobile
 User-Agent: AdsBot-Google
 Disallow: /legal
-Sitemap: https://gurcoff.com/sitemap.xml
+Sitemap: https://hospedajecasabonita.com/sitemap.xml
