@@ -162,7 +162,6 @@ header h1 span {
 
 html {
   line-height: 1.5;
-  scroll-behavior: auto;
 }
 
 body {
@@ -286,6 +285,10 @@ main {
   transform: scaleX(1.1);
 }
 
+.servicios{
+  margin: 7rem 0;
+}
+
 .servicios div{
   display: grid;
 }
@@ -365,6 +368,14 @@ main {
   transform: scaleX(1.1);
   box-shadow: 0 1px 3px rgba(34, 34, 34, .7);
   ;
+}
+
+#alianzas>p{
+  margin: 4rem 0;
+}
+
+#alianzas>.beneficios{
+  text-align: center;
 }
 footer {
   display: flex;

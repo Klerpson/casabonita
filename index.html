@@ -84,8 +84,8 @@ json: false
           <li>
             <lord-icon src="https://cdn.lordicon.com/jvihlqtw.json" trigger="loop" stroke="100"
               colors="primary:#4b5842,secondary:#08a88a" style="width:16;height:16px">
-            </lord-icon>Tienes a tu disposición <strong>alianzas locales con descuentos o regalos</strong> . <a
-              href="#alianzas">¡Conócelas!</a>
+            </lord-icon>Tienes a tu disposición <strong>alianzas locales con descuentos o regalos</strong> .
+            <a href="#alianzas">¡Conócelas!</a>
           </li>
         </ul>
       </div>
@@ -149,7 +149,7 @@ json: false
       </picture>
       <h3>Cuarto VIP</h3>
       <p>Habitación de lujo con bañera</p>
-      <a href="">Quiero este cuarto</a>
+      <a href="{{site.whatsapp}}">Quiero este cuarto</a>
     </article>
     <article>
       <picture>
@@ -160,7 +160,7 @@ json: false
       </picture>
       <h3>Ejecutivo</h3>
       <p>Habitación con baño privado</p>
-      <a href="">Quiero este cuarto</a>
+      <a href="{{site.whatsapp}}">Quiero este cuarto</a>
     </article>
     <article>
       <picture>
@@ -171,20 +171,35 @@ json: false
       </picture>
       <h3>Cuarto familiar</h3>
       <p>Dos camas con baño privado</p>
-      <a href="">Quiero este cuarto</a>
+      <a href="{{site.whatsapp}}">Quiero este cuarto</a>
     </article>
   </div>
 </section>
-
-<section class="alianzas">
-  <h2 id="alianzas">Casa Bonita San Agustín y sus aliados</h2>
-  <p>¿Has ido a algún destino a solo ver televisión y dormir? Pues queremos que cuando nos visites tengas toda una
-    experiencia relajante y agradable.</p>
-  <p>Por esto, <strong>tenemos para ti alianzas con negocios de San Agustín</strong> que mejorarán tus experiencias y tu
-    estadía con nosotros. Conoce algunas de ellas y los beneficios que tienen para ti.</p>
+<section class="servicios">
+  <h2>Aquí te dejamos cómo contactarnos en San Agustín</h2>
+  <p>A continuación te dejamos todos nuestros datos de contacto: <strong>el mapa para llegar a Casa Bonita con tu GPS, el número de teléfono, el número de WhatsApp, y los perfiles de redes sociales.</strong></p>
+  <p>Haz clic en el botón de tu preferencia.</p>
   <div>
-
-  </div>
+    <h3>¿Cómo llegar al hotel Casa Bonita?</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.646512512221!2d-76.282667!3d1.8839732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e257b847463fdff%3A0x903736c45b7cb7b3!2sHospedaje%20Casa%20Bonita!5e0!3m2!1ses-419!2sco!4v1639002053680!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
+<section class="servicios" id="alianzas">
+  <h2>Casa Bonita San Agustín y sus aliados</h2>
+  <p>Estamos preparados para que cuando nos visites tengas una experiencia relajante y agradable. Por esto, <strong>tenemos para ti alianzas con negocios de San Agustín</strong> que mejorarán tus experiencias y tu estadía con nosotros. Conoce algunas de ellas y los beneficios que tienen para ti.</p>
+  <article class="beneficios">
+    <picture>
+      <source type="image/webp" srcset="{{ site.baseurl }}/img/heladeria-gurcoff-san-agustin-huila.webp">
+      <img src="{{ site.baseurl }}/img/heladeria-gurcoff-san-agustin-huila.png"
+        alt="Logo de la heladería GurCoff de San Agustín" title="Logo de GurCoff"
+        loading="lazy" width="300" height="300">
+    </picture>
+    <div class="service-text">
+      <h3>Heladería GurCoff</h3>
+      <p>Por ser nuestro cliente, la heladería GurCoff de San Agustín te obsequia un toppin adicional o salsa natural.</p>
+      <a href="https://gurcoff.com/contacto" class="botones" style="margin: 1rem auto;" title="WhatsApp del Hotel Casa Bonita">Solicita tu obsequio</a>
+    </div>
+  </article>
 </section>
 
 {% include footer.html %}
