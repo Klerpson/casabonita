@@ -259,6 +259,16 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
+
+.opiniones{
+  display: grid;
+  place-content: center;
+}
+
+.opiniones p{
+  width: min(90%, 640px);
+  margin: 2rem auto;
+}
 footer {
   display: flex;
   flex-wrap: wrap;
