@@ -3,7 +3,27 @@ layout: default
 title: Hospedaje Casa Bonita | San Agustín Huila
 h1: Tu casa para tu próximo viaje a San Agustín Huila
 description: San Agustín Huila es un paraíso de relajación y descanso. Casa bonita será el hospedaje con todo lo que siempre buscas en tus viajes. Conócenos
-json: false
+json: {
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "name": "Hospedaje Casa Bonita",
+  "description": "San Agustín Huila es un paraíso de relajación y descanso. Casa bonita será el hospedaje con todo lo que siempre buscas en tus viajes.",
+  "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Co",
+      "addressLocality": "San Agustín",
+      "addressRegion": "Huila",
+      "postalCode": "418060",
+      "streetAddress": "Salida al Estrecho del Magdalena, antes de la entrada a la Chaquira"
+  },
+  "telephone": "+57 321 8301698",
+  "photo": "https://hospedajecasabonita.com/img/hospedaje-casa-bonita-san-agustin.png",
+  "starRating": {
+      "@type": "Rating",
+      "ratingValue": "4.7"
+  },
+  "priceRange": "$55000 - $89000"
+}
 ---
 {% include header.html %}
 <main class="servicios">
