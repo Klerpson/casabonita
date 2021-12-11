@@ -222,6 +222,17 @@ main {
   margin: 0.7rem;
 }
 
+.rooms article q{
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.rooms article q::after,
+.rooms article q::before{
+  content: "";
+}
+
 .rooms article a {
   margin: 0.7rem 0;
   padding: 0.7rem;
