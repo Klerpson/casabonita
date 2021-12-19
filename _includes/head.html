@@ -53,9 +53,6 @@
   <meta property="article:modified_time" content="{{ page.date}}" />
   <meta property="article:updated_time" content="{{ page.date}}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description}}{% else %}{{ page.title}}{% endif %}" />
-
-  <!-- TAG GOOGLE -->
-  <!-- <meta name="google-site-verification" content="0nQFs57C9WTi2LNUqnTasHQGwfcwTSdv3duaID3kZsU" /> -->
   <!-- PRELOADS AND LINKS -->
   <link rel="preload" href="{{site.baseurl}}/css/style.css">
   <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
@@ -100,4 +97,20 @@
   <link rel='dns-prefetch' href='//www.google.com.co' />
   <link rel='dns-prefetch' href='//www.googleadservices.com' />
   <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+  <!-- Global site tag (gtag.js) - Google Ads: 834626773 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-834626773"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-834626773');
+</script>
+<!-- Event snippet for Website traffic conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-834626773/n7HkCNnGs_kBENXJ_Y0D'});
+</script>
+
+
 </head>
